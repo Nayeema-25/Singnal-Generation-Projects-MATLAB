@@ -1,0 +1,80 @@
+#Signal Generation Projects - MATLAB
+
+This repository contains MATLAB implementations of various signal generation techniques, commonly used in signal processing, communication systems, and audio applications. Each project demonstrates different types of signals, their properties, and their applications.
+
+
+
+
+1. SINE WAVE - BASIC CONTINUOUS SIGNAL:
+
+The sine wave is a fundamental continuous-time signal used in mathematics, physics, and engineering. It is represented by:
+
+x(t) = A \sin(2\pi f t + \phi)
+
+. APPLICATIONS:
+. Used in audio signal processing and waveform analysis.
+. Fundamental signal in Fourier series and spectral analysis.
+. Basis for modulated signals like AM and FM.
+
+
+
+
+2. SQUARE WAVE - DIGITAL SIGNAL:
+
+A square wave is a discrete-time or continuous-time periodic waveform that alternates between two levels (high and low). It is defined by:
+
+x(t) = A \cdot \text{sgn}(\sin(2\pi f t))
+
+ APPLICATIONS:
+. Used in digital circuits and clock signals.
+. Common in pulse-width modulation (PWM) techniques.
+. Helps analyze switching circuits and logic systems.
+
+
+
+
+3. NOISY SIGNAL - RANDOM NOISE GENERATION:
+
+A noisy signal is a combination of a deterministic signal and random noise, modeled as:
+
+y(t) = x(t) + n(t)
+
+. APPLICATIONS:
+. Simulates real-world noisy environments for testing.
+. Used in signal denoising and filtering algorithms.
+. Important in machine learning and speech processing.
+
+
+
+
+4. MODULATED SIGNAL - AMPLITUDE MODULATION (AM SIGNAL):
+
+An AM signal consists of a carrier wave modulated by a message signal:
+
+s(t) = A_c \cos(2\pi f_c t) + A_m \cos(2\pi f_m t)
+
+. APPLICATIONS:
+. Used in radio broadcasting (AM radio).
+. Essential in wireless communication systems.
+. Helps understand modulation and demodulation techniques.
+
+
+
+
+5. CHIRP SIGNAL - FREQUENCY SWEEPING SIGNAL:
+
+A chirp signal is a sinusoidal signal whose frequency changes over time:
+
+x(t) = A \cos(2\pi (f_0 + kt)t)
+
+. Applications:
+. Used in radar and sonar for target detection.
+. Found in biomedical ultrasound imaging.
+. Helps in Doppler shift analysis.
+
+
+
+
+
+
+

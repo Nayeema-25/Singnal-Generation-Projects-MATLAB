@@ -1,0 +1,20 @@
+#sine wave Basic continue signal
+
+% Sampling frequency
+fs = 1000;   % 1000 Hz (High enough to capture smooth waveform)
+
+% Time vector (from 0 to 1 second, with step 1/fs)
+t = 0:1/fs:1;
+
+% Frequency of the sine wave
+f = 10;   % 10 Hz
+
+% Generate the sine wave
+signal = sin(2 * pi * f * t);
+
+% Plot the sine wave
+plot(t, signal);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Sine Wave Signal');
+grid on;

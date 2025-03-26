@@ -1,0 +1,20 @@
+#MATLAB code for a Chirp Signal (Frequency Sweeping Signal).
+
+% Define time duration
+fs = 1000;  % Sampling frequency (Hz)
+t = 0:1/fs:2;  % Time from 0 to 2 seconds with a step of 1/fs
+
+% Define chirp signal parameters
+f0 = 5;   % Start frequency (Hz)
+f1 = 50;  % End frequency (Hz)
+
+% Generate chirp signal
+chirp_signal = chirp(t, f0, 2, f1);
+
+% Plot the chirp signal
+figure;
+plot(t, chirp_signal);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Chirp Signal (Frequency Sweeping)');
+grid on;

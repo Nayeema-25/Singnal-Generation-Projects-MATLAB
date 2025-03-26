@@ -1,0 +1,31 @@
+#MATLAB code for generating a Noisy Signal (Adding Random Noise).
+
+
+% Define time duration
+t = 0:0.01:2;  % Time from 0 to 2 seconds with a step of 0.01s
+
+% Define original signal (sine wave)
+f = 5;  % Frequency of 5 Hz
+signal = sin(2 * pi * f * t);  % Generate a sine wave
+
+% Generate random noise
+noise = 0.5 * randn(size(t));  % Gaussian (normal) distributed noise
+
+% Add noise to the original signal
+noisy_signal = signal + noise;
+
+% Plot original and noisy signals
+figure;
+subplot(2,1,1);
+plot(t, signal);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Original Signal');
+grid on;
+
+subplot(2,1,2);
+plot(t, noisy_signal);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Noisy Signal');
+grid on;

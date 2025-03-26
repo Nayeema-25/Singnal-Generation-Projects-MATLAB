@@ -1,0 +1,18 @@
+MATLAB code for generating a Square Wave (Digital Signal) 
+
+% Define time duration
+t = 0:0.01:2;  % Time from 0 to 2 seconds with a step of 0.01s
+
+% Define frequency
+f = 5;  % Frequency of 5 Hz
+
+% Generate square wave signal
+signal = square(2 * pi * f * t);  % MATLAB function to generate a square wave
+
+% Plot the signal
+plot(t, signal);
+xlabel('Time (s)');  % Label for X-axis
+ylabel('Amplitude');  % Label for Y-axis
+title('Square Wave (Digital Signal)');  % Title of the graph
+grid on;  % Enable grid for better visualization
+ylim([-1.5 1.5]); % Set Y-axis limits for clear representation

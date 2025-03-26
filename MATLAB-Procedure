@@ -1,0 +1,65 @@
+General Procedure for Using MATLAB on a PC
+
+If you're using MATLAB for the first time or need a structured approach, follow this guide:
+
+
+
+
+1. Installing MATLAB:
+
+. Download MATLAB from the official MathWorks website.
+. Install the software and activate it with your license key (if required).
+
+
+
+
+2. Launching MATLAB:
+
+. Open MATLAB from the Start menu.
+. The main MATLAB interface consists of:
+
+Command Window → Execute commands interactively.
+
+Editor → Write and save scripts (.m files).
+
+Workspace → View variables.
+
+Figure Window → Display plots and graphs.
+
+
+
+
+
+3. Writing a MATLAB Script:
+
+. Click on "New Script" to open the editor.
+. Write your MATLAB code inside the script editor.
+. Save the file with a .m extension (Example: sine_wave.m).
+
+
+
+
+4. Running the Script:
+
+. Press Run (F5) to execute the script.
+. The output will be displayed in the Command Window or Figure Window (for plots).
+
+
+
+
+5. Saving Output (Graphs/Plots):
+
+. If your script generates a graph, follow these steps:
+
+Click File → Save As in the Figure Window.
+
+Choose a format (.png, .jpg, .pdf).
+
+Save it in your project folder.
+
+
+
+
+
+
+
